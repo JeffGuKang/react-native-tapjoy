@@ -15,7 +15,6 @@ Pod::Spec.new do |s|
   ]
 
   s.platform     = :ios, "7.0"
-  s.dependency 'React’
 
   s.xcconfig = {
     'HEADER_SEARCH_PATHS' => [
